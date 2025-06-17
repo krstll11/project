@@ -1,0 +1,25 @@
+### Python ###
+# Виртуальные окружения
+venv/
+.venv/
+env/
+.env/  # папка .env (не путать с файлом)
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# Файлы баз данных
+*.db
+*.sqlite3
+*.sqlite
+db.sqlite3
+
